@@ -15,7 +15,6 @@ header {
     background-size: cover;
     background-position: right 50% bottom 15%;
     box-sizing: content-box;
-    margin: 0,5%;
     padding: 100px;
     display: block;
 }
@@ -46,11 +45,11 @@ article {
     background-color:#926239;
 
 }
-
 .brownFont-header {
     color: #926239;
     background-color: rgba(28, 28, 28, 0);
 }
+
 
 .brownBg-section {
     font-size: medium;
@@ -58,12 +57,12 @@ article {
     background-color:#926239;
 
 }
-
 .brownFont-section {
     font-size: medium;
     color: #926239;
     background-color: #F3F5F4;
 }
+
 
 .brownBg-article {
     font-size: medium;
@@ -72,7 +71,6 @@ article {
     display: inline-block;
     width: 33%    
 }
-
 .brownFont-article {
     font-size: medium;
     color: #926239;
