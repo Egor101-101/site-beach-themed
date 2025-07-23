@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,72 +9,66 @@ body {
 }
 
 header {
-    height: 300px;
-    background-image: url("./../img/bg.jpg");
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: right 50% bottom 15%;
-    box-sizing: content-box;
-    padding: 100px;
-    display: block;
-}
+    /* position */
 
-section {
-    display: inline;
-    padding: 0px;
+    display: block;
+    height: 100vh;
+    padding: 100px;
+
+    /* background */
+
+    background-image: url("./../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
 }
 
 article {
     font-size: 0;
-    padding: 0px;
 }
 
-#readmore-btn {
+.readmore-btn {
+    /* position */
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+    /* decoration */
+
+    color: #926239;
     border: solid 1px #926239;
     border-radius: 10px;
     background-color: rgba(28, 28, 28, 0);
 }
 
-#readmore-btn:hover {
+.readmore-btn:hover {
     color: white;
     background-color: #926239;
 }
 
-.brownBg-header {
-    color: white;
-    background-color:#926239;
-
-}
 .brownFont-header {
     color: #926239;
     background-color: rgba(28, 28, 28, 0);
 }
 
-
-.brownBg-section {
+.p-section {
     font-size: medium;
+    padding: 5px;
+}
+
+.brownBg {
     color: white;
     background-color:#926239;
-
-}
-.brownFont-section {
-    font-size: medium;
-    color: #926239;
-    background-color: #F3F5F4;
 }
 
-
-.brownBg-article {
-    font-size: medium;
-    color: white;
-    background-color:#926239;
-    display: inline-block;
-    width: 33%    
-}
-.brownFont-article {
-    font-size: medium;
+.brownFont {
     color: #926239;
     background-color: white;
+}
+
+.article {
+    font-size: medium;
     display: inline-block;
-    width: 33%
+    width: 33.33%    
 }
